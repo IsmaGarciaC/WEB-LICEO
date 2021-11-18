@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 600px;
+    background: #db732d;
+    /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(231, 31%, 34%, 0.815), hsla(24, 71%, 52%, 0.815)), url(../img/portada.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(231, 31%, 34%, 0.815), hsla(24, 71%, 52%, 0.815)), url(../img/portada.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+header .textosinicio{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textosinicio h1{
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+.textosinicio h2{
+    font-size: 30px;
+    font-weight: 300px;
+    color: whitesmoke;
+}
+/* Contenedor sobre nosotros */
+.contenedor {
+    padding: 50px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: hsl(240, 36%, 42%);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.contenedorsobrenosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagensobrenosotros{
+    width: 40%;
+    padding-right: 50px;
+}
+.contenidotextos{
+    margin: 10px 0px 0 0px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 200%;
+    text-align: justify;
+}
+/* Galeria */
+.galeria{
+    background: #f2f2f2;
+}
+.galeriaimg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.img-galeria{
+    width: 32%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+}
+.imagen{
+    text-align: center;
+}
+/* Termina Galeria */
+/* Empieza Espacios */
+.espacios{
+    background: rgba(34, 34, 110, 0.952);
+    color: whitesmoke;
+}
+#especial{
+    color: whitesmoke;
+}
+.subtitulo{
+    font-size: 30px;
+}
+.textosespacios{
+    font-size: 19px;
+    line-height: 200%;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+}
+.espaciosimg{
+    padding: 0px 0 10px 0;
+}
+/* Empieza Informacion */
+.horarios{
+    font-size: 19px;
+    line-height: 200%;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+}
+.contactos{
+    font-size: 19px;
+    line-height: 200%;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+}
+.horarios p{
+    font-weight: bolder;
+    padding: 20px 0 20px 0;
+}
+.contactos p{
+    font-weight: bolder;
+    padding: 20px 0 70px ;
+}
+#horariosub{
+    color: orange;
+}
+#contactosub{
+    color: orange;
+}
+.boton a{
+    background: rgba(34, 34, 110, 0.952);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+}
+.boton a:hover{
+    text-decoration: underline whitesmoke;
+
+}
+/* Termina Info */
+/* Empieza Mapa */
+.mapa{
+    background: rgb(250, 190, 79);
+}
+.googlemaps{
+    text-align: center;
+}
+.googlemaps iframe{
+    width: 900px;
+    height: 600px;
+}
+/* Termina Mapa */
+/* Empieza Login */
+.login{
+    background: #f2f2f2;
+    text-align: center;
+}
+.login h3{
+    color: rgba(34, 34, 110, 0.952);
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#logintitulo{
+    margin-bottom: 30px;
+}
+/* Empieza el footer */
+footer{
+    background: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.footer{
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}
