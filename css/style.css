@@ -155,12 +155,14 @@ header .textosinicio{
 }
 .boton a:hover{
     text-decoration: underline whitesmoke;
-
+}
+.boton{
+    padding-bottom: 20px;
 }
 /* Termina Info */
 /* Empieza Mapa */
 .mapa{
-    background: rgb(250, 190, 79);
+    background: rgb(250, 182, 55);
 }
 .googlemaps{
     text-align: center;
@@ -193,4 +195,5 @@ footer{
 .footer{
     font-weight: bold;
     margin: 50px 0 50px 0;
+    color: rgba(34, 34, 110, 0.952);
 }
